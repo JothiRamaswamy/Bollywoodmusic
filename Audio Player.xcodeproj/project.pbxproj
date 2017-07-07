@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94CCB7691F0FF5F7008F16A8 /* bolllwood.png in Resources */ = {isa = PBXBuildFile; fileRef = 94CCB7681F0FF5F7008F16A8 /* bolllwood.png */; };
 		94EDC6D91F09221D00C6D71C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EDC6D81F09221D00C6D71C /* AppDelegate.swift */; };
 		94EDC6DB1F09221D00C6D71C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EDC6DA1F09221D00C6D71C /* ViewController.swift */; };
 		94EDC6DE1F09221D00C6D71C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94EDC6DC1F09221D00C6D71C /* Main.storyboard */; };
 		94EDC6E01F09221D00C6D71C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94EDC6DF1F09221D00C6D71C /* Assets.xcassets */; };
 		94EDC6E31F09221D00C6D71C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94EDC6E11F09221D00C6D71C /* LaunchScreen.storyboard */; };
+		94EDC6EB1F092CB200C6D71C /* bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94EDC6EA1F092CB200C6D71C /* bach.jpg */; };
+		94EDC6ED1F093EA200C6D71C /* Edited_final_mix.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94EDC6EC1F093EA200C6D71C /* Edited_final_mix.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94CCB7681F0FF5F7008F16A8 /* bolllwood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bolllwood.png; sourceTree = "<group>"; };
 		94EDC6D51F09221D00C6D71C /* Audio Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audio Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94EDC6D81F09221D00C6D71C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94EDC6DA1F09221D00C6D71C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		94EDC6DF1F09221D00C6D71C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94EDC6E21F09221D00C6D71C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94EDC6E41F09221D00C6D71C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94EDC6EA1F092CB200C6D71C /* bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bach.jpg; path = ../../../../Users/10022940/Downloads/bach.jpg; sourceTree = "<group>"; };
+		94EDC6EC1F093EA200C6D71C /* Edited_final_mix.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Edited_final_mix.mp3; path = "../../../../Users/10022940/Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/Edited_final_mix.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,11 @@
 		94EDC6D71F09221D00C6D71C /* Audio Player */ = {
 			isa = PBXGroup;
 			children = (
+				94EDC6EA1F092CB200C6D71C /* bach.jpg */,
+				94CCB7681F0FF5F7008F16A8 /* bolllwood.png */,
 				94EDC6D81F09221D00C6D71C /* AppDelegate.swift */,
 				94EDC6DA1F09221D00C6D71C /* ViewController.swift */,
+				94EDC6EC1F093EA200C6D71C /* Edited_final_mix.mp3 */,
 				94EDC6DC1F09221D00C6D71C /* Main.storyboard */,
 				94EDC6DF1F09221D00C6D71C /* Assets.xcassets */,
 				94EDC6E11F09221D00C6D71C /* LaunchScreen.storyboard */,
@@ -123,8 +132,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94CCB7691F0FF5F7008F16A8 /* bolllwood.png in Resources */,
 				94EDC6E31F09221D00C6D71C /* LaunchScreen.storyboard in Resources */,
+				94EDC6EB1F092CB200C6D71C /* bach.jpg in Resources */,
 				94EDC6E01F09221D00C6D71C /* Assets.xcassets in Resources */,
+				94EDC6ED1F093EA200C6D71C /* Edited_final_mix.mp3 in Resources */,
 				94EDC6DE1F09221D00C6D71C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +311,7 @@
 				94EDC6E91F09221D00C6D71C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
